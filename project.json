@@ -1,6 +1,19 @@
 {
-  "Target1": {
-    "dir1": null,
-    "dir2": null
-  }
+  "projects": [
+    {
+      "name": "top-dir1",
+      "subDir1": {
+        "name": "sub-dir1",
+        "subDir2": {
+          "name": "sub-dir12"
+        }
+      }
+    },
+    {
+      "name": "top-dir2",
+      "subDir1": {
+        "name": "sub-dir2"
+      }
+    }
+  ]
 }
