@@ -1,19 +1,20 @@
-{
-  "projects": [
-    {
-      "name": "top-dir1",
-      "subDir1": {
-        "name": "sub-dir1",
-        "subDir2": {
-          "name": "sub-dir12"
-        }
-      }
-    },
-    {
-      "name": "top-dir2",
-      "subDir1": {
-        "name": "sub-dir2"
-      }
-    }
-  ]
-}
+Projects/
+└── Acme Company
+    ├── EPT
+    │   ├── evidence
+    │   │   ├── credentials
+    │   │   ├── data
+    │   │   └── screenshots
+    │   ├── logs
+    │   ├── scans
+    │   ├── scope
+    │   └── tools
+    └── IPT
+        ├── evidence
+        │   ├── credentials
+        │   ├── data
+        │   └── screenshots
+        ├── logs
+        ├── scans
+        ├── scope
+        └── tools
