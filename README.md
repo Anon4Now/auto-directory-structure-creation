@@ -3,7 +3,7 @@
 This code will create a file structure that can be used to organize data aquired during a pen-test of a target.
 I made this because I wanted to stay organized, and I found myself irritated by the constant manual necessity of creating these directory structure for every target.
 
-**START-NOTE** I will be looking to make this code read from likely a YAML/TOML file to create whatever directory structure the user wants. Right now it is hard-coded to be what is represented below. **END-NOTE**
+<span style="color:red">**START-NOTE**</span> _I will be looking to make this code read from likely a YAML/TOML file to create whatever directory structure the user wants. Right now it is hard-coded to be what is represented below._ <span style="color:red">**END-NOTE**</span>
 
 ## Tool Functionality:
 
