@@ -21,4 +21,4 @@
 go.work
 
 Dockerfile
-build-bin.sh
+build_binary.sh
