@@ -23,7 +23,7 @@ I made this because I wanted to stay organized, and I found myself irritated by 
 
 - This was designed in its current state to work with a Linux OS. However if desired it can be altered to fit a Windows OS.
 
-## TREE STRUCTURE
+## Tree Structure
 
 ```
   Acme Company
@@ -46,4 +46,10 @@ I made this because I wanted to stay organized, and I found myself irritated by 
         ├── scope
         └── tools
 
+```
+
+## Example CLI for building Linux binary
+
+```
+env GOOS=linux GOARCH=amd64 go build -ldflags "-s -w" -o ./dist/<BINARY_NAME> ./*.go
 ```
